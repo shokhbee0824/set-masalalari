@@ -1,0 +1,366 @@
+# 3-m
+# students = {'Ali', 'Vali', 'Sami'}
+# students.add('Aziz')
+# print(students)
+# students.remove('Sami')
+# print(students)
+# print('Jamshid' in students)
+# students.add('Jamshid')
+# print(students)
+# new_students = {'Vali', 'Diyor'}
+# students.update(new_students)
+# print(students)
+# print(students.intersection(new_students))
+# print(students.difference(new_students))
+# graduates = {'Ali', 'Jamshid'}
+# print(graduates)
+# print(students.symmetric_difference(graduates))
+# print("students:", students)
+# print("new_students:", new_students)
+# print("graduates:", graduates)
+# 4-m
+# numbers = {1, 2, 3, 4}
+# numbers.add(5)
+# print(numbers)
+# numbers.discard(2)
+# print(numbers)
+# print(10 in numbers)
+# more_nums = {3, 6, 7}
+# print(more_nums)
+# numbers.update(more_nums)
+# print(numbers)
+# print(numbers.intersection(more_nums))
+# print(numbers.difference(more_nums))
+# print(numbers.union(more_nums))
+# print(max(numbers))
+# print(min(numbers))
+# 5-m
+# animals = {'cat', 'dog', 'fish'}
+#
+# animals.add('rabbit')
+# print(animals)
+#
+# animals.remove('dog')
+# print(animals)
+#
+# print('parrot' in animals)
+# animals.add('parrot')
+# print(animals)
+# more_animals = {'lion', 'cat'}
+# print(more_animals)
+# animals.update(more_animals)
+# print(animals)
+# print(animals.difference(more_animals))
+# print(sorted(animals))
+# print(len(animals))
+# print(animals)
+# 6-Masala
+# cart = {'milk', 'bread', 'cheese'}
+# cart.add('butter')
+# print(cart)
+# cart.remove('milk')
+# print(cart)
+# print('jam' in cart)
+# cart.add('jam')
+# print(cart)
+# new_items = {'bread', 'yogurt'}
+# print(new_items)
+# cart.update(new_items)
+# print(cart)
+# print(cart.difference(new_items))
+# print(cart.intersection(new_items))
+# print(bool(cart))
+# print(cart)
+# 
+# # 7-Masala
+# subjects = {'Math', 'Physics'}
+# subjects.add('Biology')
+# print(subjects)
+# subjects.discard('Math')
+# print(subjects)
+# print('Chemistry' in subjects)
+# subjects.add('Chemistry')
+# print(subjects)
+# extra = {'History', 'Physics'}
+# print(extra)
+# all_subjects = subjects.union(extra)
+# print(all_subjects)
+# subjects_copy = subjects.copy()
+# print(subjects_copy)
+# subjects_copy.add('Geography')
+# print(subjects_copy)
+# print(subjects.symmetric_difference(extra))
+# print(subjects, extra, all_subjects)
+# 
+# # 8-Masala
+# cities = {'Tashkent', 'Samarkand'}
+# cities.add('Bukhara')
+# print(cities)
+# cities.remove('Samarkand')
+# print(cities)
+# print('Khiva' in cities)
+# cities.add('Khiva')
+# print(cities)
+# uzbek_cities = {'Andijan', 'Namangan', 'Tashkent'}
+# cities.update(uzbek_cities)
+# print(cities)
+# print(cities.difference(uzbek_cities))
+# print(cities.intersection(uzbek_cities))
+# print(sorted(cities))
+# print(len(cities))
+# print(cities)
+# 
+# # 9-Masala
+# brands = {'Nike', 'Adidas'}
+# brands.add('Puma')
+# print(brands)
+# brands.discard('Adidas')
+# print(brands)
+# print('Reebok' in brands)
+# brands.add('Reebok')
+# print(brands)
+# local_brands = {'Sabr', 'Nike'}
+# all_brands = brands.union(local_brands)
+# print(all_brands)
+# print(brands.difference(local_brands))
+# brands_copy = brands.copy()
+# print(brands_copy)
+# brands_copy.clear()
+# print(brands_copy)
+# print(brands, local_brands)
+# 
+# # 10-Masala
+# books = {'1984', 'Hamlet', 'Inferno'}
+# books.add('Animal Farm')
+# print(books)
+# books.remove('Inferno')
+# print(books)
+# print('Hamlet' in books)
+# books.add('Fahrenheit 451')
+# print(books)
+# new_books = {'1984', 'Dune'}
+# books.update(new_books)
+# print(books)
+# print(books.difference(new_books))
+# print(books.intersection(new_books))
+# print(sorted(books))
+# print(books)
+# 
+# # 11-Masala
+# invited = {'Ali', 'Vali', 'Salim'}
+# arrived = {'Vali', 'Sami'}
+# invited.add('Aziza')
+# print(invited)
+# common = invited.intersection(arrived)
+# print(common)
+# not_arrived = invited.difference(arrived)
+# print(not_arrived)
+# all_guests = invited.union(arrived)
+# print(all_guests)
+# invited.clear()
+# print(invited)
+# arrived.discard('Sami')
+# print(arrived)
+# arrived.add('Sardor')
+# print(arrived)
+# unexpected = arrived.difference({'Vali', 'Sami'})
+# print(unexpected)
+# print(len(arrived))
+# print(invited, arrived)
+# 
+# # 12-Masala
+# udemy = {'Alisher', 'Dilshod', 'Malika'}
+# coursera = {'Malika', 'Zafar'}
+# udemy.add('Shahnoza')
+# print(udemy)
+# both = udemy.intersection(coursera)
+# print(both)
+# only_coursera = coursera.difference(udemy)
+# print(only_coursera)
+# all_students = udemy.union(coursera)
+# print(all_students)
+# udemy_copy = udemy.copy()
+# print(udemy_copy)
+# udemy_copy.discard('Dilshod')
+# print(udemy_copy)
+# one_course = udemy.symmetric_difference(coursera)
+# print(one_course)
+# print(sorted(all_students))
+# print(len(udemy), len(coursera))
+# print(udemy, coursera)
+# 
+# # 13-Masala
+# it_vacancy = {'Azamat', 'Javlon', 'Sarvar'}
+# design_vacancy = {'Javlon', 'Sabrina'}
+# it_vacancy.add('Kamila')
+# print(it_vacancy)
+# only_it = it_vacancy.difference(design_vacancy)
+# print(only_it)
+# both_jobs = it_vacancy.intersection(design_vacancy)
+# print(both_jobs)
+# only_design = design_vacancy.difference(it_vacancy)
+# print(only_design)
+# all_applicants = it_vacancy.union(design_vacancy)
+# print(all_applicants)
+# combined_copy = all_applicants.copy()
+# print(combined_copy)
+# combined_copy.discard('Sarvar')
+# print(combined_copy)
+# different = it_vacancy.symmetric_difference(design_vacancy)
+# print(different)
+# print(len(it_vacancy), len(design_vacancy))
+# print(sorted(all_applicants))
+# 
+# # 14-Masala
+# students = {'Ali', 'Soliha', 'Bobur'}
+# checked = {'Bobur', 'Ali'}
+# checked.add('Gulbahor')
+# print(checked)
+# not_checked = students.difference(checked)
+# print(not_checked)
+# sorted_checked = sorted(checked)
+# print(sorted_checked)
+# all_students = students.union(checked)
+# print(all_students)
+# print(len(checked))
+# checked_copy = checked.copy()
+# checked_copy.discard('Ali')
+# print(checked_copy)
+# sym_diff = students.symmetric_difference(checked)
+# print(sym_diff)
+# print(bool(students), bool(checked))
+# common = students.intersection(checked)
+# print(common)
+# print(students, checked)
+# 
+# # 15-Masala
+# toshkent_trip = {'Olim', 'Rustam', 'Ziyoda'}
+# samarkand_trip = {'Ziyoda', 'Kamola'}
+# toshkent_trip.add('Nodira')
+# print(toshkent_trip)
+# both_trips = toshkent_trip.intersection(samarkand_trip)
+# print(both_trips)
+# only_toshkent = toshkent_trip.difference(samarkand_trip)
+# print(only_toshkent)
+# all_travelers = toshkent_trip.union(samarkand_trip)
+# print(all_travelers)
+# sym_diff = toshkent_trip.symmetric_difference(samarkand_trip)
+# print(sym_diff)
+# toshkent_trip.discard('Ziyoda')
+# print(toshkent_trip)
+# trip_copy = toshkent_trip.copy()
+# trip_copy.clear()
+# print(trip_copy)
+# print(len(toshkent_trip), len(samarkand_trip))
+# print(sorted(toshkent_trip))
+# print(toshkent_trip, samarkand_trip)
+# 
+# # 16-Masala
+# online_orders = {'Ulugbek', 'Shoira', 'Ibrohim'}
+# cash_orders = {'Ibrohim', 'Dilshod'}
+# online_orders.add('Muzaffar')
+# print(online_orders)
+# only_cash = cash_orders.difference(online_orders)
+# print(only_cash)
+# both_methods = online_orders.intersection(cash_orders)
+# print(both_methods)
+# sym_diff = online_orders.symmetric_difference(cash_orders)
+# print(sym_diff)
+# all_customers = sorted(online_orders.union(cash_orders))
+# print(all_customers)
+# orders_copy = online_orders.copy()
+# print(orders_copy)
+# orders_copy.clear()
+# print(orders_copy)
+# print(len(online_orders), len(cash_orders))
+# cash_orders.discard('Dilshod')
+# print(cash_orders)
+# print(online_orders, cash_orders)
+# 
+# # 17-Masala
+# football = {'Otabek', 'Ali'}
+# basketball = {'Ali', 'Javohir'}
+# football.add('Farrux')
+# print(football)
+# both_sports = football.intersection(basketball)
+# print(both_sports)
+# only_football = football.difference(basketball)
+# print(only_football)
+# only_basketball = basketball.difference(football)
+# print(only_basketball)
+# all_players = football.union(basketball)
+# print(all_players)
+# sym_diff = football.symmetric_difference(basketball)
+# print(sym_diff)
+# football.discard('Ali')
+# print(football)
+# basket_copy = basketball.copy()
+# print(basket_copy)
+# basket_copy.clear()
+# print(basket_copy)
+# print(football, basketball)
+# 
+# # 18-Masala
+# registered = {'a@gmail.com', 'b@gmail.com', 'c@gmail.com'}
+# verified = {'b@gmail.com', 'c@gmail.com', 'd@gmail.com'}
+# registered.add('e@gmail.com')
+# print(registered)
+# not_verified = registered.difference(verified)
+# print(not_verified)
+# both = registered.intersection(verified)
+# print(both)
+# all_emails = registered.union(verified)
+# print(all_emails)
+# diff = registered.difference(verified)
+# print(diff)
+# sym_diff = registered.symmetric_difference(verified)
+# print(sym_diff)
+# print(sorted(registered))
+# print(len(registered), len(verified))
+# registered.discard('c@gmail.com')
+# print(registered)
+# print(registered, verified)
+# 
+# # 19-Masala
+# present = {'Asilbek', 'Nodir', 'Gulnoza'}
+# late = {'Gulnoza', 'Madina'}
+# present.add('Madina')
+# print(present)
+# only_late = late.difference(present)
+# print(only_late)
+# on_time = present.difference(late)
+# print(on_time)
+# all_students = present.union(late)
+# print(all_students)
+# sym_diff = present.symmetric_difference(late)
+# print(sym_diff)
+# present.discard('Asilbek')
+# print(present)
+# present_copy = present.copy()
+# print(present_copy)
+# present_copy.clear()
+# print(present_copy)
+# print(sorted(present))
+# print(present, late)
+# 
+# # 20-Masala
+# taken = {'Lola', 'Shoxrux', 'Muhammad'}
+# returned = {'Muhammad', 'Lola'}
+# taken.add('Suhrob')
+# print(taken)
+# not_returned = taken.difference(returned)
+# print(not_returned)
+# print(len(returned))
+# all_books = taken.union(returned)
+# print(all_books)
+# only_taken = taken.difference(returned)
+# print(only_taken)
+# sym_diff = taken.symmetric_difference(returned)
+# print(sym_diff)
+# taken.discard('Shoxrux')
+# print(taken)
+# taken_copy = taken.copy()
+# print(taken_copy)
+# sorted_taken = sorted(taken)
+# print(sorted_taken)
+# print(taken, returned)
